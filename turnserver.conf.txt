@@ -1,0 +1,15 @@
+listening-port=3478
+tls-listening-port=5349
+
+listening-ip=0.0.0.0
+relay-ip=0.0.0.0
+
+fingerprint
+lt-cred-mech
+use-auth-secret
+static-auth-secret=SUPERSECRET123
+
+realm=lingroacademy.com
+
+no-multicast-peers
+log-file=/var/log/turnserver.log
